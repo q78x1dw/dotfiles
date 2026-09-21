@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
+alias bat='batcat'
 
 # CUSTOMIZED #
 #
@@ -108,3 +108,6 @@ source $ZSH/oh-my-zsh.sh
 #
 export NEMU_HOME=/home/liu/Documents/ysyx/ysyx-workbench/nemu
 export AM_HOME=/home/liu/Documents/ysyx/ysyx-workbench/abstract-machine
+export NPC_HOME=/home/liu/Documents/ysyx/ysyx-workbench/npc
+export NVBOARD_HOME=/home/liu/Documents/ysyx/ysyx-workbench/nvboard
+

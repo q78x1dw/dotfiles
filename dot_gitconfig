@@ -1,0 +1,9 @@
+[user]
+	email = q78x1dw@outlook.com
+	name = q78x1dw@outlook.com
+[color]
+	ui = true
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
