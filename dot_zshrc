@@ -82,11 +82,16 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
+
+export XDG_DATA_DIRS=/var/lib/flatpak/exports/share:/home/ripo/.local/share/flatpak/exports/share 
+export PATH="/usr/lib/ccache:$PATH"
+#将XDG_DATA_DIRS环境变量设置为/var/lib/flatpak/exports/share和/home/ripo/.local/share/flatpak/exports/share两条路径
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
