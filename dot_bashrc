@@ -115,13 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export NEMU_HOME=/home/liu/Documents/ysyx/ysyx-workbench/nemu
-export AM_HOME=/home/liu/Documents/ysyx/ysyx-workbench/abstract-machine
-export NPC_HOME=/home/liu/Documents/ysyx/ysyx-workbench/npc
-export NVBOARD_HOME=/home/liu/Documents/ysyx/ysyx-workbench/nvboard
 
-export STM32_PRG_PATH=/home/liu/STM32Cube/Programmer/bin
-export QSYS_ROOTDIR="/home/liu/altera_lite/25.1std/quartus/sopc_builder/bin"
-export BENCH_HOME=/home/liu/Documents/ysyx/ysyx-workbench/archbench
-
+source ~/.customs.sh
 xmodmap ~/.xmodmap
