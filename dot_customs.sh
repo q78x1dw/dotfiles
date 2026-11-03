@@ -9,7 +9,9 @@ fi
 #将XDG_DATA_DIRS环境变量设置为/var/lib/flatpak/exports/share和/home/ripo/.local/share/flatpak/exports/share两条路径
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:/home/ripo/.local/share/flatpak/exports/share" 
 
-export PATH="/usr/lib/ccache:$PATH:/home/liu/eda_software/oss-cad-suite/bin"
+export PATH="/usr/lib/ccache:$PATH:\
+/home/liu/eda_software/oss-cad-suite/bin:\
+/opt/STM32CubeProg/bin"
 
 
 alias bat='batcat'
