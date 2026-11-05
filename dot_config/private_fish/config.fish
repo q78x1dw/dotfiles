@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 function bat
-	batcat
+	batcat $argv
 end
 
 #将XDG_DATA_DIRS环境变量设置为/var/lib/flatpak/exports/share和/home/ripo/.local/share/flatpak/exports/share两条路径

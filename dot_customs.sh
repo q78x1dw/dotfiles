@@ -10,9 +10,8 @@ fi
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:/home/ripo/.local/share/flatpak/exports/share" 
 
 export PATH="/usr/lib/ccache:$PATH:\
-/home/liu/eda_software/oss-cad-suite/bin:\
-/opt/STM32CubeProg/bin"
-
+/home/liu/soft/eda/oss-cad-suite/bin\
+"
 
 alias bat='batcat'
 
