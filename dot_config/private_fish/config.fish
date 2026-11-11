@@ -6,6 +6,10 @@ function bat
 	batcat $argv
 end
 
+function cncmd
+	env LANG=zh_CN.UTF-8 $argv
+end
+
 #将XDG_DATA_DIRS环境变量设置为/var/lib/flatpak/exports/share和/home/ripo/.local/share/flatpak/exports/share两条路径
 set -x XDG_DATA_DIRS "$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:/home/ripo/.local/share/flatpak/exports/share" 
 

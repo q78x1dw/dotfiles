@@ -118,3 +118,5 @@ fi
 
 source ~/.customs.sh
 xmodmap ~/.xmodmap
+export NPC_HOME=/home/liu/Documents/ysyx/ysyx-workbench/npc
+export NEMU_HOME=/home/liu/Documents/ysyx/ysyx-workbench/nemu
