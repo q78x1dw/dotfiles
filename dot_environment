@@ -13,11 +13,9 @@ export PATH="/usr/lib/ccache:$PATH:\
 /home/liu/soft/eda/oss-cad-suite/bin\
 "
 
-alias bat='batcat'
 
 source /usr/share/autojump/autojump.sh
 
-# key remaps
 
 # CUSTOMIZED #
 #
