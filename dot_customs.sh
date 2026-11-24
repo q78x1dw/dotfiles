@@ -15,6 +15,8 @@ export PATH="/usr/lib/ccache:$PATH:\
 
 alias bat='batcat'
 
+source /usr/share/autojump/autojump.sh
+
 # key remaps
 
 # CUSTOMIZED #
