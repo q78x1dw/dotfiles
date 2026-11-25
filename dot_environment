@@ -3,14 +3,15 @@
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='/opt/nvim-linux-x86_64/bin/nvim'
+  export EDITOR='nvim'
 fi
 
 #将XDG_DATA_DIRS环境变量设置为/var/lib/flatpak/exports/share和/home/ripo/.local/share/flatpak/exports/share两条路径
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:/home/ripo/.local/share/flatpak/exports/share" 
 
 export PATH="/usr/lib/ccache:$PATH:\
-/home/liu/soft/eda/oss-cad-suite/bin\
+/home/liu/soft/eda/oss-cad-suite/bin:\
+/home/liu/.local/bin\
 "
 
 
